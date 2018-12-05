@@ -1,5 +1,5 @@
  PROJECT_NAME=pxl-k8s
- CLUSTER_NAME=niels-sandbox
+ CLUSTER_NAME=anthony-stulens
  CLUSTER_REGION=europe-west1
  CLUSTER_ZONE=europe-west1-d
  gcloud config set project $PROJECT_NAME

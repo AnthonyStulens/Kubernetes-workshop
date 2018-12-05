@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-hello-kubernetes
+  name: pod-tony-kubernetes
 spec:
   containers:
   - name: hello-kubernetes
-    image: eu.gcr.io/pxl-k8s/hello-kube:0.2
+    image: eu.gcr.io/pxl-k8s/tonys-kube:0.2
     ports:
     - containerPort: 5000
